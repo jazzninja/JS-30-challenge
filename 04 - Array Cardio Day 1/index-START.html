@@ -50,7 +50,7 @@
     }, 0);
 
     // 5. Sort the inventors by years lived
-    cons oldest = inventors.sort(function(firstPerson, secondPerson) {
+    const oldest = inventors.sort(function(firstPerson, secondPerson) {
         const lastGuy = firstPerson.passed - firstPerson.year;
         const nextGuy = secondPerson.passed - secondPerson.year;
         return lastGuy > nextGuy ? -1 : 1;
