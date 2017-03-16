@@ -23,9 +23,9 @@ body {
   transition: transform 0.5s;
 }
 
-.fixed-nav .site-wrap {
+/*.fixed-nav .site-wrap {
   transform: scale(1);
-}
+}*/
 
 header {
   text-align: center;
@@ -73,7 +73,7 @@ nav li {
 }
 
 li.logo {
-  max-width:0;
+  max-width: 0;
   overflow: hidden;
   background: white;
   transition: all .5s;
